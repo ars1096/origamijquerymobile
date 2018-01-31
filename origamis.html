@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.css" />
+    <link rel="stylesheet" href="css/origami.css">
+    <link rel="stylesheet" href="css/themeorigami.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+ <div data-role="page" data-theme="a">
+     <div data-role="header">
+         <h1>Origami Mania</h1>
+         <a data-rel="back" class="ui-btn ui-btn-left
+         ui-corner-all ui-btn-icon-left
+         ui-icon-back ui-nodisc-icon ui-btn-icon-notext
+         ui-alt-icon
+         ">Back</a>
+     </div>
+     <div class="ui-content" role="main">
+
+         <form class="ui-filterable">
+             <input id="filter-input" data-type="search">
+         </form>
+
+         <ul data-role="listview"
+             data-autodividers="true"
+             data-filter="true"
+             data-input="#filter-input"
+         >
+             <li class="ui-li-has-thumb"><a href="rosas.html">
+                 <img src="rosa.jpg" alt="">
+                 <h3>AKawasaki Rose</h3>
+             </a></li>
+             <li class="ui-li-has-thumb"><a href="rosas.html">
+                 <img src="rosa.jpg" alt="">
+                 <h3>AMKawasaki Rose</h3>
+             </a></li>
+             <li class="ui-li-has-thumb"><a href="rosas.html">
+                 <img src="rosa.jpg" alt="">
+                 <h3>CKawasaki Rose</h3>
+             </a></li>
+             <li class="ui-li-has-thumb"><a href="rosas.html">
+                 <img src="rosa.jpg" alt="">
+                 <h3>AKawasaki Rose</h3>
+             </a></li>
+             <li class="ui-li-has-thumb"><a href="rosas.html">
+                 <img src="rosa.jpg" alt="">
+                 <h3>Kawasaki Rose</h3>
+             </a></li>
+             <li class="ui-li-has-thumb"><a href="rosas.html">
+                 <img src="rosa.jpg" alt="">
+                 <h3>aKawasaki Rose</h3>
+             </a></li>
+         </ul>
+
+     </div>
+
+     <div data-role="footer" data-theme="a" data-position="fixed">
+         <div data-role="navbar">
+             <ul >
+                 <li><a href="#acerca" data-transition="slidedown"
+                        class="ui-btn ui-btn-icon-top ui-icon-info"
+                 >Nosotros</a></li>
+                 <li><a href="origamis.html"
+                        class="ui-btn ui-btn-icon-top ui-icon-bars"
+                        data-ajax="false"
+                 >Origamis</a></li>
+                 <li><a href="origamis.html?favoritos=true"
+                        class="ui-btn ui-btn-icon-top ui-icon-star"
+                        data-ajax="false"
+                 >Favoritos</a></li>
+             </ul>
+         </div>
+
+     </div>
+ </div>
+
+
+
+</body>
+</html>

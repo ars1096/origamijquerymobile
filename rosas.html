@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rosas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.css" />
+    <link rel="stylesheet" href="css/origami.css">
+    <link rel="stylesheet" href="css/themeorigami.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+    <div data-role="page" data-theme="a">
+        <div data-role="header" >
+            <h1>Rosas Kawasaki</h1>
+            <a data-rel="back" class="ui-btn ui-btn-left
+         ui-corner-all ui-btn-icon-left
+         ui-icon-back ui-nodisc-icon 
+         ui-alt-icon
+         ">Atrás</a>
+
+        </div>
+        <div class="ui-content">
+
+           <p><b>Dificultad:</b> Alta</p>
+            <p><b>Categoria</b> Flores</p>
+            <p><b>Imagen:</b></p>
+            <img style="align: middle"src="azul.jpg" alt="rosakawasakiazul">
+
+            <div class="ui-grid-b ui-responsive">
+                <div class="ui-block-a"><a href="#" class="ui-btn-icon-top ui-icon-star  ui-btn ui-corner-all ">Favoritos</a></div>
+                <div class="ui-block-b"><a href="#" class="ui-btn-icon-top ui-icon-edit ui-btn ui-corner-all ">Editar</a></div>
+                <div class="ui-block-c"><a href="#" class="ui-btn-icon-top ui-icon-delete  ui-btn ui-corner-all ">Eliminar</a></div>
+            </div>
+
+
+        </div>
+
+        <div data-role="footer" data-theme="a" data-position="fixed">
+            <div data-role="navbar">
+                <ul >
+                    <li><a href="#acerca" data-transition="slidedown"
+                           class="ui-btn ui-btn-icon-top ui-icon-info"
+                    >Nosotros</a></li>
+                    <li><a href="origamis.html"
+                           class="ui-btn ui-btn-icon-top ui-icon-bars"
+                           data-ajax="false"
+                    >Origamis</a></li>
+                    <li><a href="origamis.html?favoritos=true"
+                           class="ui-btn ui-btn-icon-top ui-icon-star"
+                           data-ajax="false"
+                    >Favoritos</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div data-role="page" id="acerca" data-theme="b">
+        <div data-role="header" data-add-back-btn="true">
+            <h1>Origami Mania</h1>
+        </div>
+        <div class="ui-content" role="main">
+            <br>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam architecto aspernatur debitis
+                dolore doloremque ea eius error expedita facere fuga ipsum iusto laboriosam mollitia natus officiis
+                perferendis placeat quaerat quas quasi quia rem sint sit tempora ut vitae, voluptatem!
+            </div>
+
+        </div>
+
+        <div data-role="footer" data-theme="a" data-position="fixed">
+            footer provisional....
+        </div>
+    </div>
+
+
+    </body>
+</html>
